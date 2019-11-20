@@ -26,6 +26,7 @@ requirements:
     - python
     - setuptools
     - pkgconfig
+    - pybind11
 
 test:
   commands:
