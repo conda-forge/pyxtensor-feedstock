@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -27,6 +27,7 @@ requirements:
     - setuptools
     - pkgconfig
     - pybind11
+    - xtensor
 
 test:
   commands:
