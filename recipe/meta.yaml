@@ -1,23 +1,23 @@
 {% set name = "pyxtensor" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "3dc386a38e228ce5d6cae541c2daeb5b98fa7e6645cce10313932a3a252036f0" %}
+{% set version = "0.1.1" %}
+{% set sha256 = "f43a928bc2a3e6814ff14e87f2f25f1d735c6faf292fcc25fb4b3e754be299d2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://github.com/tdegeus/pyxtensor/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
 
 requirements:
   build:
     - {{ compiler('cxx') }}
     - cmake
+    - make  # [unix]
   host:
     - python
     - pip
