@@ -1,6 +1,6 @@
 {% set name = "pyxtensor" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "41c35df79a966deee006af85b3c9be8d929b41ea3b2ceafd5ff7db8b936b890e" %}
+{% set version = "0.1.4" %}
+{% set sha256 = "e0ddc3f444d53d9af4bbcb7a077ae18539aa9f48c3cd797d7e57b3773b14ab48" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -51,8 +51,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'pybind11 details for xtensor'
-  description: 'pybind11 details for xtensor'
+  summary: pybind11 details for xtensor
+  description: pybind11 details for xtensor
   doc_url: https://github.com/tdegeus/pyxtensor
   dev_url: https://github.com/tdegeus/pyxtensor
 
