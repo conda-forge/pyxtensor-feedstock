@@ -1,6 +1,5 @@
 {% set name = "pyxtensor" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "e0ddc3f444d53d9af4bbcb7a077ae18539aa9f48c3cd797d7e57b3773b14ab48" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tdegeus/pyxtensor/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: "194f696f35ca201edb4f2eeee3784659511fe26e92cc30b5b3f6dcbf659e3e4b"
 
 build:
   number: 1
