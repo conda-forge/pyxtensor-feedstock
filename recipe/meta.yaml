@@ -1,5 +1,5 @@
 {% set name = "pyxtensor" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tdegeus/pyxtensor/archive/v{{ version }}.tar.gz
-  sha256: "194f696f35ca201edb4f2eeee3784659511fe26e92cc30b5b3f6dcbf659e3e4b"
+  sha256: "49ce8d9105914a9cddba99d0b3780ff0d82b2bca1a3e9c3adab07248a00afb5a"
 
 build:
   number: 0
